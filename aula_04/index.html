@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rebecca Nery</title>
+  </head>
+  <body>
+    <header>
+      <h1>Your Inner Princess</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Perfil das Princesas</a></li>
+          <li><a href="#">Qual sua princesa interior?</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <video width="400" controls poster="princesas.jpg" preload="none">
+        <source src="criancas.mp4" type="video/mp4" />
+        <source src="trailer.webm" type="video/webm" />
+        <p>Seu navegador não suporta o elemento de vídeo.</p>
+      </video>
+      <section>
+        <h2>Descubra sua Princesa Interior</h2>
+        <p>
+          Faça nosso quiz para descobrir qual princesa da Disney mais se parece
+          com você!
+        </p>
+        <button onclick="alert('Quiz em breve!')">Fazer Quiz</button>
+      </section>
+      <section>
+        <h2>Perfil das Princesas</h2>
+        <p>Conheça as características de cada princesa.</p>
+        <button onclick="alert('Perfis em breve!')">Ver Perfis</button>
+      </section>
+      <section>
+        <h2>Assine nossa Newsletter!</h2>
+        <p>Receba as últimas novidades e conteúdos exclusivos!</p>
+        <form>
+          <div>
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              pattern="[A-Za-zÀ-ÿ\s]+"
+              title="Por favor, insira apenas letras e espaços."
+            />
+          </div>
+          <br />
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <br />
+          <button type="submit">Assinar</button>
+        </form>
+      </section>
+    </main>
+    <aside>
+      <h3>Categorias</h3>
+      <ul>
+        <li><a href="#">Curiosidades</a></li>
+        <li><a href="#">Como se vestir como uma princesa</a></li>
+        <li><a href="#">Como conquistar o coração de um príncipe</a></li>
+      </ul>
+    </aside>
+    <footer>
+      <p>&copy; 2026 Portal das Princesas. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

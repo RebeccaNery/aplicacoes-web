@@ -6,27 +6,28 @@
     <title>Rebecca Nery</title>
   </head>
   <body>
+    <a href="#conteudo-principal">Pular para o conteúdo</a>
     <header>
       <h1>Your Inner Princess</h1>
-      <nav>
+      <nav aria-label="Menu principal">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Perfil das Princesas</a></li>
-          <li><a href="#">Qual sua princesa interior?</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#perfil-princesas">Perfil das Princesas</a></li>
+          <li><a href="#princesa-interior">Qual sua princesa interior?</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h2>Descubra sua Princesa Interior</h2>
+    <main id="conteudo-principal">
+      <section aria-labelledby="titulo-quiz">
+        <h2 id="titulo-quiz">Descubra sua Princesa Interior</h2>
         <p>
           Faça nosso quiz para descobrir qual princesa da Disney mais se parece
           com você!
         </p>
         <button onclick="alert('Quiz em breve!')">Fazer Quiz</button>
       </section>
-      <section>
-        <h2>Perfil das Princesas</h2>
+      <section aria-labelledby="titulo-perfil">
+        <h2 id="titulo-perfil">Perfil das Princesas</h2>
         <p>
           Conheça as características de cada princesa e veja qual delas combina
           mais com você.
@@ -34,12 +35,12 @@
         <button onclick="alert('Perfis em breve!')">Ver Perfis</button>
       </section>
     </main>
-    <aside>
+    <aside aria-label="Categorias do site">
       <h3>Categorias</h3>
       <ul>
-        <li><a href="#">Curiosidades</a></li>
-        <li><a href="#">Como se vestir como uma princesa</a></li>
-        <li><a href="#">Como conquistar o coração de um príncipe</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#como-se-vestir">Como se vestir como uma princesa</a></li>
+        <li><a href="#conquistar-principe">Como conquistar o coração de um príncipe</a></li>
       </ul>
     </aside>
     <footer>
